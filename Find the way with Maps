@@ -1,0 +1,4 @@
+def triple(n):
+    return 3*n
+list1=list(map(int,input("enter the numbers in list with space between each : ").split()))
+print(list(map(triple,list1)))
