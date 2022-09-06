@@ -1,0 +1,2 @@
+list1=list(map(int,input("enter the numbers in list with space between each : ").split()))
+print(list(map((lambda a:a*a),list1)))
